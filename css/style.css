@@ -28,6 +28,7 @@ nav {
 
 .border {
   border: 2px solid transparent;
+  padding: 10px 5px 10px 5px;
 }
 
 .border:hover {
@@ -38,7 +39,6 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px 5px 10px 5px;
   border-radius: 3px;
 }
 
@@ -64,6 +64,11 @@ nav {
   height: 40px;
   border-radius: 3px;
   background-color: #e6e6e6;
+  border: 1.5px solid transparent;
+}
+
+.nav-search:hover {
+  border: 1.5px solid orange;
 }
 
 .search-select {
@@ -75,6 +80,7 @@ nav {
   border-bottom-left-radius: 3px;
   border: none;
 }
+
 .search-select:hover {
   background-color: #999999;
   color: black;
@@ -103,7 +109,6 @@ nav {
 }
 
 .nav-sign-in {
-  padding: 10px 5px 10px 5px;
   border-radius: 3px;
 }
 
@@ -116,4 +121,85 @@ nav {
 
 #sign-in-text {
   font-size: 13px;
+}
+
+#returns-text {
+  font-size: 13px;
+}
+
+#returns-icon {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav-cart {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cart-icon {
+  font-size: 1.5rem;
+}
+
+.cart-text {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.panel-menu p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.panel {
+  display: flex;
+  background-color: #232f3e;
+  height: 40px;
+  width: 100%;
+  color: white;
+  align-items: center;
+  /* padding: 0 0px 0 20px; */
+}
+
+.panel-menu {
+  display: flex;
+  gap: 5px;
+  padding-left: 20px;
+}
+
+.panel-options {
+  display: flex;
+  gap: 15px;
+  padding: 0 0 0 10px;
+  font-size: 14px;
+}
+
+/* hero section */
+
+.hero-section {
+  background-image: url("../img/hero.jpg");
+  height: 595px;
+  background-size: cover;
+  /* width: 95%; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  background-color: white;
+  width: 90%;
+  text-align: center;
+  padding: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 300px;
+  border-radius: 5px;
+}
+
+.hero-msg a {
+  text-decoration: none;
 }
