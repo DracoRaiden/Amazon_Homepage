@@ -319,3 +319,52 @@ main {
 .recommendations-content p {
   font-size: 11px;
 }
+
+.footer-pannel2-1 {
+  height: 350px;
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sub-pannel {
+  font-weight: bold;
+  margin: 40px 0 15px 0;
+  font-size: 18px;
+}
+
+.footer-pannel2-1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-pannel2-1 ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-pannel2-1 ul a:hover {
+  text-decoration: underline;
+}
+.footer-pannel2-2 {
+  height: 100px;
+  background-color: #232f3e;
+}
+
+#line-above {
+  height: 1px;
+  background-color: #cccccc33;
+  border: none;
+}
+
+.footer-pannel2 {
+  background-color: #232f3e;
+}
+
+.amazon-logo-footer img {
+  height: 90px;
+  background-size: cover;
+}
