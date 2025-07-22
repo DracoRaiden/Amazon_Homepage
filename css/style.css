@@ -179,8 +179,9 @@ nav {
 
 .hero-section {
   background-image: url("../img/hero.jpg");
-  height: 595px;
+  height: 500px;
   background-size: cover;
+
   /* width: 95%; */
   display: flex;
   justify-content: center;
@@ -196,10 +197,76 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
   border-radius: 5px;
 }
 
 .hero-msg a {
   text-decoration: none;
+}
+
+/* Shop section */
+
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 1170px;
+}
+.box {
+  border: 2px solid transparent;
+  background-color: white;
+  height: 420px;
+  width: 330px;
+}
+
+.box h2 {
+  font-size: 22px;
+}
+.grey-background {
+  background-color: #cccccc;
+  height: 1000px;
+}
+
+.shop a {
+  text-decoration: none;
+  font-size: 13px;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.r2 {
+  margin-top: 50px;
+}
+
+.sub-boxes4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.pad-box a {
+  color: black;
+}
+.pad-box {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.sub-boxes1-3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.shop-titles {
+  color: #2162a1;
 }
