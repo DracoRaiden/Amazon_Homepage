@@ -212,7 +212,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-evenly;
   position: relative;
-  bottom: 1170px;
+  bottom: 970px;
 }
 .box {
   border: 2px solid transparent;
@@ -220,13 +220,16 @@ nav {
   height: 420px;
   width: 330px;
 }
+main {
+  height: 1500px;
+}
 
 .box h2 {
   font-size: 22px;
 }
 .grey-background {
   background-color: #cccccc;
-  height: 1000px;
+  height: 800px;
 }
 
 .shop a {
@@ -269,4 +272,50 @@ nav {
 
 .shop-titles {
   color: #2162a1;
+}
+
+.footer-pannel1 a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 13px;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  background-color: #344f6f;
+  color: white;
+}
+
+.footer-pannel1 a:hover {
+  background-color: #45668d;
+  cursor: pointer;
+}
+
+.recommendations-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  bottom: 830px;
+}
+
+.recommendations-content button {
+  background-color: rgb(255, 210, 11);
+  border: none;
+  width: 240px;
+  height: 30px;
+  border-radius: 18px;
+}
+
+.recommendations-content button:hover {
+  background-color: rgb(230, 189, 3);
+  cursor: pointer;
+}
+
+.recommendations-content p {
+  font-size: 11px;
 }
